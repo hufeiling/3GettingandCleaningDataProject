@@ -12,8 +12,7 @@ yTrain<-read.table("Source Data/train/y_train.txt")
 
 # Bind (activities + subjects + activities labels)
 # Merge the training and the test sets
-mergeData<-rbind(cbind(xTest,subjectTest,yTest),cbind
-                 (xTrain,subjectTrain,yTrain))
+mergeData<-rbind(cbind(xTest,subjectTest,yTest),cbind(xTrain,subjectTrain,yTrain))
 
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
@@ -29,8 +28,7 @@ extractMeanDev<-mergeData[,meanDevLoc]
 # 3. Uses descriptive activity names to name the activities in the data set
 
 # Extract descriptive labels for "mean" and "standard deviation"
-meanDevLabel<-c(grep("(mean\\())|std",features
-                     $V2,value=TRUE),"Subject","Activity Labels")
+meanDevLabel<-c(grep("(mean\\())|std",features$V2,value=TRUE),"Subject","Activity Labels")
 
 # lable te activities with extracted descriptive labels
 colnames(extractMeanDev)<-meanDevLabel
