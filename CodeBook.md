@@ -1,7 +1,7 @@
-"Subject" 
+"Subject" :
 Number that uniquely identify the 30 volunteers within an age bracket of 19-48 years.
 
-"ActivityLabelsDesc" 
+"ActivityLabelsDesc" :
 Six activities performed by the volunteers wearing a smartphone
     WALKING
     WALKING_UPSTAIRS
@@ -10,201 +10,201 @@ Six activities performed by the volunteers wearing a smartphone
     STANDING 
     LAYING 
 
-"tBodyAcc-mean()-X" 
+"tBodyAcc-mean()-X" :
 Mean value of body acceleration signals in X dimension
 
-"tBodyAcc-mean()-Y" 
+"tBodyAcc-mean()-Y" :
 Mean value of body acceleration signals in Y dimension
 
-"tBodyAcc-mean()-Z" 
+"tBodyAcc-mean()-Z" :
 Mean value of body acceleration signals in Z dimension
 
-"tBodyAcc-std()-X" 
+"tBodyAcc-std()-X" :
 Standard deviation of body acceleration signals in X dimension
 
-"tBodyAcc-std()-Y" 
+"tBodyAcc-std()-Y" :
 Standard deviation of body acceleration signals in Y dimension
 
-"tBodyAcc-std()-Z" 
+"tBodyAcc-std()-Z" :
 Standard deviation of body acceleration signals in Z dimension
 
-"tGravityAcc-mean()-X"  
+"tGravityAcc-mean()-X"  :
 Mean value of gravity acceleration signals in X dimension
 
-"tGravityAcc-mean()-Y" 
+"tGravityAcc-mean()-Y" :
 Mean value of gravity acceleration signals in Y dimension
 
-"tGravityAcc-mean()-Z" 
+"tGravityAcc-mean()-Z" :
 Mean value of gravity acceleration signals in Z dimension
 
-"tGravityAcc-std()-X" 
+"tGravityAcc-std()-X" :
 Standard deviation of gravity acceleration signals in X dimension
 
-"tGravityAcc-std()-Y" 
+"tGravityAcc-std()-Y" :
 Standard deviation of gravity acceleration signals in Y dimension
 
-"tGravityAcc-std()-Z" 
+"tGravityAcc-std()-Z" :
 Standard deviation of gravity acceleration signals in Z dimension
 
-"tBodyAccJerk-mean()-X" 
+"tBodyAccJerk-mean()-X" :
 Mean value of body acceleration Jerk signals in X dimension
 
-"tBodyAccJerk-mean()-Y" 
+"tBodyAccJerk-mean()-Y" :
 Mean value of body acceleration Jerk signals in Y dimension
 
-"tBodyAccJerk-mean()-Z" 
+"tBodyAccJerk-mean()-Z" :
 Mean value of body acceleration Jerk signals in Z dimension
 
-"tBodyAccJerk-std()-X" 
+"tBodyAccJerk-std()-X" :
 Standard deviation of body acceleration Jerk signals in X dimension
 
-"tBodyAccJerk-std()-Y" 
+"tBodyAccJerk-std()-Y" :
 Standard deviation of body acceleration Jerk signals in Y dimension
 
-"tBodyAccJerk-std()-Z" 
+"tBodyAccJerk-std()-Z" :
 Standard deviation of body acceleration Jerk signals in Z dimension
 
-"tBodyGyro-mean()-X" 
+"tBodyGyro-mean()-X" :
 Mean value of body gyroscope signals in X dimension
 
-"tBodyGyro-mean()-Y" 
+"tBodyGyro-mean()-Y" :
 Mean value of body gyroscope signals in Y dimension
 
-"tBodyGyro-mean()-Z" 
+"tBodyGyro-mean()-Z" :
 Mean value of body gyroscope signals in Z dimension
 
-"tBodyGyro-std()-X" 
+"tBodyGyro-std()-X" :
 Standard deviation of body gyroscope signals in X dimension
 
-"tBodyGyro-std()-Y" 
+"tBodyGyro-std()-Y" :
 Standard deviation of body gyroscope signals in Y dimension
 
-"tBodyGyro-std()-Z" 
+"tBodyGyro-std()-Z" :
 Standard deviation of body gyroscope signals in Z dimension
 
-"tBodyGyroJerk-mean()-X" 
+"tBodyGyroJerk-mean()-X" :
 Mean value of body gyroscope Jerk signals in X dimension
 
-"tBodyGyroJerk-mean()-Y" 
+"tBodyGyroJerk-mean()-Y" :
 Mean value of body gyroscope Jerk signals in Y dimension
 
-"tBodyGyroJerk-mean()-Z" 
+"tBodyGyroJerk-mean()-Z" :
 Mean value of body gyroscope Jerk signals in Z dimension
 
-"tBodyGyroJerk-std()-X" 
+"tBodyGyroJerk-std()-X" :
 Standard deviation of body gyroscope Jerk signals in X dimension
 
-"tBodyGyroJerk-std()-Y" 
+"tBodyGyroJerk-std()-Y" :
 Standard deviation of body gyroscope Jerk signals in Y dimension
 
-"tBodyGyroJerk-std()-Z" 
+"tBodyGyroJerk-std()-Z" :
 Standard deviation of body gyroscope Jerk signals in Z dimension
 
-"tBodyAccMag-mean()" 
+"tBodyAccMag-mean()" :
 Mean value of body acceleration signals magnitude using the Euclidean norm
 
-"tBodyAccMag-std()" 
+"tBodyAccMag-std()" :
 Standard deviation of body acceleration signals magnitude using the Euclidean norm
 
-"tGravityAccMag-mean()" 
+"tGravityAccMag-mean()" :
 Mean value of gravity acceleration signals magnitude using the Euclidean norm
 
-"tGravityAccMag-std()" 
+"tGravityAccMag-std()" :
 Standard deviation of gravity acceleration signals magnitude using the Euclidean norm
 
-"tBodyAccJerkMag-mean()" 
+"tBodyAccJerkMag-mean()" :
 Mean value of body acceleration Jerk signals magnitude using the Euclidean norm
 
-"tBodyAccJerkMag-std()"
+"tBodyAccJerkMag-std()":
  Standard deviation of body acceleration Jerk signals magnitude using the Euclidean norm
 
-"tBodyGyroMag-mean()" 
+"tBodyGyroMag-mean()" :
 Mean value of body gyroscope signals magnitude using the Euclidean norm
 
-"tBodyGyroMag-std()" 
+"tBodyGyroMag-std()" :
 Standard deviation of body gyroscope signals magnitude using the Euclidean norm
 
-"tBodyGyroJerkMag-mean()" 
+"tBodyGyroJerkMag-mean()" :
 Mean value of body gyroscope Jerk signals magnitude using the Euclidean norm
 
-"tBodyGyroJerkMag-std()" 
+"tBodyGyroJerkMag-std()" :
 Standard deviation of body gyroscope Jerk signals magnitude using the Euclidean norm
 
-"fBodyAcc-mean()-X" 
+"fBodyAcc-mean()-X" :
 Mean value of Fast Fourier Transform (FFT) body acceleration signals in X dimension
 
-"fBodyAcc-mean()-Y" 
+"fBodyAcc-mean()-Y" :
 Mean value of Fast Fourier Transform (FFT) body acceleration signals
  in Y dimension
 
-"fBodyAcc-mean()-Z" 
+"fBodyAcc-mean()-Z" :
 Mean value of Fast Fourier Transform (FFT) body acceleration signals  in Z dimension
 
-"fBodyAcc-std()-X" 
+"fBodyAcc-std()-X" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration signals in X dimension
 
-"fBodyAcc-std()-Y" 
+"fBodyAcc-std()-Y" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration signals in Y dimension
 
-"fBodyAcc-std()-Z" 
+"fBodyAcc-std()-Z" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration signals in Z dimension
 
-"fBodyAccJerk-mean()-X" 
+"fBodyAccJerk-mean()-X" :
 Mean value of Fast Fourier Transform (FFT) body acceleration Jerk signals in X dimension
 
-"fBodyAccJerk-mean()-Y" 
+"fBodyAccJerk-mean()-Y" :
 Mean value of Fast Fourier Transform (FFT) body acceleration Jerk signals in Y dimension
 
-"fBodyAccJerk-mean()-Z" 
+"fBodyAccJerk-mean()-Z" :
 Mean value of Fast Fourier Transform (FFT) body acceleration Jerk signals in Z dimension
 
-"fBodyAccJerk-std()-X" 
+"fBodyAccJerk-std()-X" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration Jerk signals in X dimension
 
-"fBodyAccJerk-std()-Y" 
+"fBodyAccJerk-std()-Y" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration Jerk signals in Y dimension
 
-"fBodyAccJerk-std()-Z" 
+"fBodyAccJerk-std()-Z" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration Jerk signals in Z dimension
 
-"fBodyGyro-mean()-X" 
+"fBodyGyro-mean()-X" :
 Mean value of Fast Fourier Transform (FFT) gyroscope acceleration signals in X dimension
 
-"fBodyGyro-mean()-Y" 
+"fBodyGyro-mean()-Y" :
 Mean value of Fast Fourier Transform (FFT) gyroscope acceleration signals in Y dimension
 
-"fBodyGyro-mean()-Z" 
+"fBodyGyro-mean()-Z" :
 Mean value of Fast Fourier Transform (FFT) gyroscope acceleration signals in Z dimension
 
-"fBodyGyro-std()-X" 
+"fBodyGyro-std()-X" :
 Standard deviation of Fast Fourier Transform (FFT) gyroscope acceleration signals in X dimension
 
-"fBodyGyro-std()-Y" 
+"fBodyGyro-std()-Y" :
 Standard deviation of Fast Fourier Transform (FFT) gyroscope acceleration signals in Y dimension
 
-"fBodyGyro-std()-Z" 
+"fBodyGyro-std()-Z" :
 Standard deviation of Fast Fourier Transform (FFT) gyroscope acceleration signals in Z dimension
 
-"fBodyAccMag-mean()" 
+"fBodyAccMag-mean()" :
 Mean value of Fast Fourier Transform (FFT) body acceleration signals magnitude 
 
-"fBodyAccMag-std()" 
+"fBodyAccMag-std()" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration signals magnitude 
 
-"fBodyBodyAccJerkMag-mean()" 
+"fBodyBodyAccJerkMag-mean()" :
 Mean value of Fast Fourier Transform (FFT) body acceleration Jerk signals magnitude 
 
-"fBodyBodyAccJerkMag-std()" 
+"fBodyBodyAccJerkMag-std()" :
 Standard deviation of Fast Fourier Transform (FFT) body acceleration Jerk signals magnitude
 
-"fBodyBodyGyroMag-mean()" 
+"fBodyBodyGyroMag-mean()" :
 Mean value of Fast Fourier Transform (FFT) gyroscope acceleration Jerk signals magnitude
 
-"fBodyBodyGyroMag-std()" 
+"fBodyBodyGyroMag-std()" :
 Standard deviation of Fast Fourier Transform (FFT) body gyroscope acceleration signals magnitude 
 
-"fBodyBodyGyroJerkMag-mean()" 
+"fBodyBodyGyroJerkMag-mean()" :
 Mean value of Fast Fourier Transform (FFT) body gyroscope acceleration Jerk signals magnitude
 
-"fBodyBodyGyroJerkMag-std()"
+"fBodyBodyGyroJerkMag-std()":
 Standard deviation of Fast Fourier Transform (FFT) body gyroscope acceleration Jerk signals magnitude
