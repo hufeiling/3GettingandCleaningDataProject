@@ -10,8 +10,8 @@ subjectTrain<-read.table("Source Data/train/subject_train.txt")
 xTrain<-read.table("Source Data/train/X_train.txt")
 yTrain<-read.table("Source Data/train/y_train.txt")
 
-# Bind (activities + subjects + activities labels)
-# Merge the training and the test sets
+# Bind columns of (activities + subjects + activities labels)
+# Bind rows of the training and the test sets
 mergeData<-rbind(cbind(xTest,subjectTest,yTest),cbind(xTrain,subjectTrain,yTrain))
 
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -22,7 +22,7 @@ features<-read.table("Source Data/features.txt")
 # Find out locations for "mean" and "standard deviation"
 meanDevLoc<-c(grep("(mean\\())|std",features$V2),562,563)
 
-# Extracts datasents with only the measurements on the mean and standard deviation as well as subject and activities label based on location found
+# Extracts datasets with only the measurements on the mean and standard deviation based on location found
 extractMeanDev<-mergeData[,meanDevLoc]
 
 # 3. Uses descriptive activity names to name the activities in the data set
@@ -30,7 +30,7 @@ extractMeanDev<-mergeData[,meanDevLoc]
 # Extract descriptive labels for "mean" and "standard deviation"
 meanDevLabel<-c(grep("(mean\\())|std",features$V2,value=TRUE),"Subject","Activity Labels")
 
-# lable te activities with extracted descriptive labels
+# lable the activities with extracted descriptive labels
 colnames(extractMeanDev)<-meanDevLabel
 
 # 4. Appropriately labels the data set with descriptive variable names.
