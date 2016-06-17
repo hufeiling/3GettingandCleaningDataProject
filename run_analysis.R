@@ -1,4 +1,4 @@
-setwd("C:/Users/hufeiling/learning/datascience/datasciencecoursera/Class3CleaningData/Week4/Project")
+setwd("/datascience/datasciencecoursera/Class3CleaningData/Week4/Project")
 
 # 1. Merges the training and the test sets to create one data set.
 
